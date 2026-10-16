@@ -47,6 +47,30 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
+## About this website
+
+This repo is the source of my live portfolio at **[siddhanthaditiyaa-beep.github.io](https://siddhanthaditiyaa-beep.github.io)**, built as a scrollable design canvas with frames, collaborator cursors, sticky notes, an inspector panel and a command palette.
+
+- Masonry project grid with an inspector panel for each project
+- Click a tool in the toolkit to filter the projects that use it
+- Press **Ctrl or Cmd + K** to jump anywhere
+- A "Fresh from GitHub" row that picks up new public repos through the GitHub API
+- Light and dark themes, responsive down to phone width
+- Vanilla HTML, CSS and JavaScript, no build step and zero dependencies
+
+**Run it locally:** open `index.html`, or run `python -m http.server 5500` in this folder and visit `http://localhost:5500`.
+
+**Update the content:** everything (details, projects, toolkit, timeline) lives in `data.js`. Edit that one file and push.
+
+| File | Purpose |
+|---|---|
+| `index.html` | Page structure |
+| `style.css` | Design tokens, layout, themes |
+| `app.js` | Rendering, interactions, GitHub feed |
+| `data.js` | All the content |
+| `photo.webp`, `avatar.webp` | Profile pictures |
+| `Siddhanthaditiyaa_Vettakal_Resume.pdf` | Resume linked from the site |
+
 ## Recognition
 
 - 🥉 **3rd place**, IEEE PCE Cognithon 2026
